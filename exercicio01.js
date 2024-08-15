@@ -1,61 +1,61 @@
-const livroObjeto = new Object();
+const livro = new Object();
 
-livroObjeto.titulo = "é assim que acaba";
-livroObjeto.autor = "Coleen Hoover";
-livroObjeto.ano = "2016";
+livro.titulo = "é assim que acaba";
+livro.autor = "Coleen Hoover";
+livro.ano = "2016";
 
-console.log(livroObjeto);
-
-
-const alunoObjeto = new Object();
-
-alunoObjeto.nome = "Ana Souza";
-alunoObjeto.turma = "2TDS1";
-alunoObjeto.idade = 16;
-alunoObjeto.chamada = 2;
-
-console.log (alunoObjeto);
+console.log(livro);
 
 
+const aluno = new Object();
 
-const carroObjeto = new Object();
+aluno.nome = "Ana Souza";
+aluno.turma = "2TDS1";
+aluno.idade = 16;
+aluno.chamada = 2;
 
-carroObjeto.cor = "Preto";
-carroObjeto.modelo = "Onix Joy 2020";
-carroObjeto.ano = 2020;
-
-console.log(carroObjeto);
+console.log (aluno);
 
 
 
-const filmeObjeto = new Object();
+const carro = new Object();
 
-filmeObjeto.titulo = "Coraline";
-filmeObjeto.diretor = "Henry Selick";
-filmeObjeto.lancamento = 2009;
+carro.cor = "Preto";
+carro.modelo = "Onix Joy 2020";
+carro.ano = 2020;
 
-console.log(filmeObjeto);
-
-
-
-const cachorroObjeto = new Object();
-
-cachorroObjeto.nome = "João Othavio"
-cachorroObjeto.raça = "Caramelo"
-cachorroObjeto.cor = "Doce de leite"
-
-console.log(cachorroObjeto);
+console.log(carro);
 
 
 
-const produtoObjeto = new Object();
+const filme = new Object();
 
-produtoObjeto.descricao = "xampu";
-produtoObjeto.marca = "Eudora"
-produtoObjeto.preco = "R$50,00";
+filme.titulo = "Coraline";
+filme.diretor = "Henry Selick";
+filme.lancamento = 2009;
 
-console.log (produtoObjeto);
+console.log(filme);
 
-produtoObjeto.marca = "Elseve"
 
-console.log (produtoObjeto);
+
+const cachorro = new Object();
+
+cachorro.nome = "João Othavio"
+cachorro.raça = "Caramelo"
+cachorro.cor = "Doce de leite"
+
+console.log(cachorro);
+
+
+
+const produto = new Object();
+
+produto.descricao = "xampu";
+produto.marca = "Eudora"
+produto.preco = "R$50,00";
+
+console.log (produto);
+
+produto.marca = "Elseve"
+
+console.log (produto);
