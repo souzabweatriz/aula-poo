@@ -43,6 +43,7 @@ const cachorro = new Object();
 cachorro.nome = "João Othavio"
 cachorro.raça = "Caramelo"
 cachorro.cor = "Doce de leite"
+cachorro.idade = 16;
 
 console.log(cachorro);
 
